@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Tabs</title>
+      <link rel = "stylesheet" type = "text/css" href = "style.css" />
+      <script src = "script.js"></script>
+    </head>
+    <body>
+      <div class='tabs'>
+        <input type='radio' id='r1' name='t' checked>
+        <label for='r1'><img class='labelIMG' src="images/greyhomeicon.png"></label>
+        <div class='content'>
+          <h3>Amazon.com</h3>
+          <div class='scroll'>
+            <div class='coupon' id='coupon1'>
+              <input type="button" class='couponId' id='code1' onclick="copying('code1', 'message1')" value="aDc4vFwr">
+              <span class='copied' id='message1'>Copied to clipboard</span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class='coupon' id='coupon2'>
+              <input type="button" class='couponId' id='code2' onclick="copying('code2', 'message2')" value="asSFG45d">
+              <span class='copied' id='message2'>Copied to clipboard</span>
+              <p>Quam ducimus, vero eum nemo accusamus voluptatem quae ab?</p>
+            </div>
+            <div class='coupon' id='coupon3'>
+              <input type="button" class='couponId' id='code3' onclick="copying('code3', 'message3')" value="dgvRE4dF">
+              <span class='copied' id='message3'>Copied to clipboard</span>
+              <p>Quibusdam, voluptate non iste aspernatur ipsum expedita, repellat odio corporis, ullam quasi tenetur!</p>
+            </div>
+            <div class='coupon' id='coupon4'>
+              <input type="button" class='couponId' id='code4' onclick="copying('code4', 'message4')" value="sfBDGrg5">
+              <span class='copied' id='message4'>Copied to clipboard</span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ducimus, vero eum nemo accusamus voluptatem quae ab?</p>
+            </div>
+            <div class='coupon' id='coupon5'>
+              <input type="button" class='couponId' id='code5' onclick="copying('code5', 'message5')" value="svRG4fR5">
+              <span class='copied' id='message5'>Copied to clipboard</span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptate non iste aspernatur ipsum expedita, repellat odio corporis, ullam quasi tenetur!</p>
+            </div>
+          </div>
+        </div>
+        
+        <input type='radio' id='r2' name='t'>
+        <label for='r2'><img class='labelIMG' src="images/greystallicon.png"></label>
+        <div class='content'>
+          <h3>Stores</h3>
+          <div class="scroll">
+            <table>
+              <tr class='store'>
+                <th class='th1'><img class='storeIMG' src='images/google.png'></th>
+                <th class='th2'><a href="https://www.google.com/"><button class="storeLink">Visit store</button></a></th>
+              </tr>
+              <tr class='store'>
+                <th class='th1'><img class='storeIMG' src='images/dell.png'></th>
+                <th class='th2'><a href="https://www.google.com/"><button class="storeLink">Visit store</button></a></th>
+              </tr>
+              <tr class='store'>
+                <th class='th1'><img class='storeIMG' src='images/lego.png'></th>
+                <th class='th2'><a href="https://www.lego.com/en-us"><button class="storeLink">Visit store</button></a></th>
+              </tr>
+              <tr class='store'>
+              <th class='th1'><img class='storeIMG' src='images/ikea.jpeg'></th>
+              <th class='th2'><a href="https://www.ikea.com/ua/uk/"><button class="storeLink">Visit store</button></a></th>
+              </tr>
+              <tr class='store'>
+              <th class='th1'><img class='storeIMG' src='images/huawei.png'></th>
+              <th class='th2'><a href="https://consumer.huawei.com/ua/"><button class="storeLink">Visit store</button></a></th>
+              </tr>
+              <tr class='store'>
+              <th class='th1'><img class='storeIMG' src='images/puma.png'></th>
+              <th class='th2'><a href="https://ua.puma.com/uk/"><button class="storeLink">Visit store</button></a></th>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <input type='radio' id='r3' name='t'>
+        <label for='r3'><img class='labelIMG' src="images/greybasketicon.png"></label>
+        <div class='content'>
+          <h3>New Coupons</h3>
+          <div class='sugg'>
+            <h5>Found the deals we don't have?</h5>
+            <a href="https://www.google.com/"><button class='suggest'>Suggest new coupons</button></a>
+          </div>
+        </div>
+        <div id='slider'></div>
+      </div>
+    </body>
+  </html>
